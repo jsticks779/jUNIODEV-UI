@@ -51,7 +51,7 @@ APPIMAGE_PATH="$HOME/AppImages/jUNIODEV-UI.AppImage"
 wget -q --show-progress "https://github.com/jsticks779/jUNIODEV-UI/releases/latest/download/jUNIODEV-UI-x86_64.AppImage" \
   -O "$APPIMAGE_PATH" 2>/dev/null || {
   echo -e "${RED}[!]${NC} Download failed. Trying fallback..."
-  cp /tmp/jUNIODEV-UI.AppImage "$APPIMAGE_PATH" 2>/dev/null || {
+  echo "    ${BLUE}https://github.com/jsticks779/jUNIODEV-UI/releases${NC}"
     echo -e "${RED}[!]${NC} Could not download AppImage."
     echo -e "    Please download manually from:"
     echo -e "    ${BLUE}https://github.com/jsticks779/jUNIODEV-UI/releases${NC}"
