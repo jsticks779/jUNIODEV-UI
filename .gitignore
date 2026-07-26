@@ -1,0 +1,5 @@
+squashfs-root/
+*.AppImage
+node_modules/
+.DS_Store
+*.log
