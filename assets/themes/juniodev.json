@@ -36,5 +36,11 @@
         "selection": "#3C3F55",
         "colorFilter": []
     },
+    "globe": {
+        "base": "#272731",
+        "marker": "#516E8E",
+        "pin": "#6D90AE",
+        "satellite": "#516E8E"
+    },
     "injectCSS": ""
 }
