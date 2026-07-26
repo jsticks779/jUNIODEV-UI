@@ -1,0 +1,3 @@
+provider: generic
+url: https://github.com/jsticks779/jUNIODEV-UI/releases/latest/download
+updaterCacheDirName: juniodev-ui-updater
